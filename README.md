@@ -13,34 +13,45 @@
 3. [Files](#-files)
 4. [Tools & Libraries](#-tools-&-libraries)
 5. [Key Accomplishments](#-key-accomplishments)
-6. [Findings & Insights](#-findings-&-insights)
-7. [Future Improvements](#-future-improvements)
+6. [Key Takeaways](#-key-takeaways)
+7. [Findings & Insights](#-findings-&-insights)
+8. [Future Improvements](#-future-improvements)
 
 ---
 
-## 📝 Project Overview
+## 📝🎯 Project Overview & Project Goals
+
+**Project Overview**:
 This project investigates the relationship between monthly COVID-19 case counts and unemployment rates from January 2020 to May 2022 across five countries: United States, Brazil, India, France, and Germany.
 
 Deploying Python, Pandas, Seaborn, and Plotly, the analysis visualizes and statistically examines how pandemic waves correlated with labor market disruptions.
+
+**Project Goals**:
+- Examine the correlation between rising COVID-19 case numbers and unemployment rates.
+- Explore unemployment trends before, during, and after COVID-19 peaks.
+- Visualize pandemic impact using interactive subplots and time-series graphs.
+- Generate insights to inform post-pandemic labor market recovery discussions.
 
 ---
 
 ## 📊 Project Summary
 - 📁 Dataset Size: 141 rows from 5 countries over 29 months (January 2020 – May 2022)
 
-- 🧮 Columns: Country, Month, COVID-19 Cases, Unemployment Rate (%)
+- 🧮 Columns: Country, Date, New Covid Cases, Unemployment Rate
 
 - 📌 Countries Analyzed:
-  - United States: 28 records
-  - Brazil: 27 records
-  - India: 27 records
-  - France: 26 records
-  - Germany: 25 records
+  - United States: 29 records
+  - Brazil: 28 records
+  - India: 28 records
+  - France: 28 records
+  - Germany: 28 records
 
 -   📉 Analysis Scope:
   -   Time-series visualization of COVID-19 and unemployment rate trends per country.
   -   Pearson correlation analysis between monthly case spikes and unemployment rates.
   -   Scatter plots with linear regression for each country to identify patterns and deviations.
+
+---
 
 ## 📂 Files
 
@@ -70,6 +81,15 @@ Deploying Python, Pandas, Seaborn, and Plotly, the analysis visualizes and stati
 - Calculated Pearson correlation coefficients to quantify relationships.
 - Identified weak to moderate correlations between COVID-19 surges and labor market fluctuations.
 - Clearly communicated insights using well-annotated graphs and written interpretation.
+
+---
+
+## 🔑 Key Takeaways
+
+- U.S. & India saw steep spikes in unemployment early in the pandemic, followed by gradual recovery.
+- Brazil maintained high unemployment throughout the period, regardless of case trends.
+- Germany and France demonstrated relatively stable employment, reflecting strong government intervention or economic policies.
+- Correlation is country-dependent: Some nations show an inverse relationship between rising case numbers and unemployment, while others show little correlation.
 
 ---
 
